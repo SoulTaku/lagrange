@@ -48,7 +48,7 @@ class Lagrange:
         for i in g.coefficients():
             f = f + x**i[1] * i[0]
 
-        if mod is not None:
+        if self.mod is not None:
             coeffs = f.coefficients()
             f = 0
 
